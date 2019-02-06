@@ -1,0 +1,161 @@
+body {
+    font-size: 12px;
+    font-weight: 400;
+	direction: ltr;
+}
+html {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body *, body *::before, body *::after {
+    box-sizing: border-box;
+}
+.home-searchWidget {
+    z-index: 12;
+    width: 970px;
+}
+.container, .seo-text, .static-container, .selling-points-container h1 {
+    box-sizing: border-box;
+    max-width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.SearchWidget {
+    padding: 20px 0;
+}
+.SearchWidget-mobileTabSelect {
+    border: 15px solid #333;
+    height: 60px;
+    width: 100%;
+}
+input, textarea, select, .input-button-group, .range-select .toggle {
+    text-align: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    transition: border-color .15s ease-out;
+}
+input, textarea, select {
+    padding: 10px;
+}
+.SearchWidget-tabsContainer {
+    margin-right: 4.28571%;
+}
+
+.SearchWidget-tabs {
+    height: 50px;
+    bottom: -2px;
+    font-size: 1.25em;
+    font-weight: 100;
+    text-transform: uppercase;
+    max-width: 928px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.SearchWidget-tab {
+    float: left !important;
+    width: 20%;
+    margin-left: 5px;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+.SearchWidget-tab-radio {
+    display: none;
+}
+input, textarea, select, .input-button-group, .range-select .toggle {
+    text-align: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    transition: border-color .15s ease-out;
+}
+input, textarea, select {
+    padding: 10px;
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+.SearchWidget-tab-label {
+    display: block;
+    position: relative;
+    opacity: .7;
+    margin-right: 5px;
+    height: 50px;
+    padding: 10px;
+    background: #00aeef;
+    color: #fff;
+    text-align: center;
+}
+.SearchWidget-tab-label span {
+    margin-top: 5px;
+    letter-spacing: .3px;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+.SearchWidget-tab-label:
+
+{
+    color:0065ef ;
+	background-color:#000000;
+}
+.SearchWidget-tabBody {
+    position: relative;
+    box-shadow: 0 1px 2px #ccc;
+    width: 100%;
+    padding: 27px;
+    background: #fff;
+}
+
+.SearchWidget-fulltext .twitter-typeahead, .SearchWidget-fulltext .SearchWidget-fulltext-input {
+    vertical-align: top;
+    margin-right: 2%;
+    border-radius: 2px;
+    width: 370px;
+    height: 40px;
+    font-size: 1em;
+}
+.SearchWidget-select, .SearchWidget-selectWrapper, .SearchWidget-maxPrice {
+    display: inline-block;
+    margin-right: 4px;
+    width: 16.52174%;
+    height: 40px;
+    font-size: 1em;
+    vertical-align: top;
+}
+.SearchWidget-submit {
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    border-radius: 5px;
+    width: 164px;
+    height: 46px;
+    padding: 0;
+    font-size: 1.33333em;
+    vertical-align: initial;
+    letter-spacing: .3px;
+}
+button, .button {
+    background-color: rgba(78, 197, 241, 0.81);
+    border: 1px solid rgba(78, 197, 241, 0.81);
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-transform: uppercase !important;
+    transition: all .15s ease-out;
+    transition-property: color,background-color,border-color;
+}
